@@ -24,7 +24,7 @@ export default function Hero() {
 
     return (
         <section className="relative">
-            <div className="absolute inset-0 bg-[url(/hero.png)] bg-no-repeat bg-cover" />
+            <div className="absolute inset-0 bg-[url(/hero.webp)] bg-no-repeat bg-cover" />
 
             <div className="relative mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center lg:px-8">
 

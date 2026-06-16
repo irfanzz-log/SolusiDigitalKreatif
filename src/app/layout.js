@@ -34,7 +34,7 @@ export async function generateMetadata() {
       siteName: "Solusi Digital Kreatif",
       images: [
         {
-          url: `${url}/logo/www.solusidigitalkreatif.my.id_.png`,
+          url: `${url}/logo/www.solusidigitalkreatif.my.id_.webp`,
           width: 1200,
           height: 630,
         },

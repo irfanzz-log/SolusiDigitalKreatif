@@ -11,7 +11,7 @@ export default function page() {
             <Nav />
             <div className="">
                 <section
-                    className="w-full flex flex-col bg-[url('/hero.png')] bg-no-repeat bg-cover bg-bottom">
+                    className="w-full flex flex-col bg-[url('/hero.webp')] bg-no-repeat bg-cover bg-bottom">
                     <div className="p-5">
                         <motion.div
                             initial={{ opacity: 0, y: -100 }}
@@ -40,7 +40,7 @@ export default function page() {
                                     viewport={{ once: true }}
                                     transition={{ duration: 1 }}
                                     className="relative md:w-1/3 w-full flex flex-col rounded-xl overflow-hidden bg-gray-200/40 m-5">
-                                    <Image src={'/PortoJawa.jpg'} alt="" width={800} height={600}></Image>
+                                    <Image src={'/PortoJawa.webp'} alt="" width={800} height={600}></Image>
                                     <div className="p-5 m-2">
                                         <p className="text-xl mb-5 font-bold">Tema Jawa</p>
                                         <p>Paket termasuk :</p>
@@ -69,7 +69,7 @@ export default function page() {
                                     viewport={{ once: true }}
                                     transition={{ duration: 1 }}
                                     className="relative md:w-1/3 w-full flex flex-col rounded-xl overflow-hidden bg-gray-200/40 m-5">
-                                    <Image src={'/PortoLight.jpg'} alt="" width={800} height={600}></Image>
+                                    <Image src={'/PortoLight.webp'} alt="" width={800} height={600}></Image>
                                     <div className="p-5 m-2">
                                         <p className="text-xl mb-5 font-bold">Tema Light</p>
                                         <p>Paket termasuk :</p>
