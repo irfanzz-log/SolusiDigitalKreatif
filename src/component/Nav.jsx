@@ -30,8 +30,8 @@ export default function Nav() {
                                 <div className={`absolute transition-all duration-500 ease-out ${isCloseNav ? "opacity-0" : "opacity-100"}`}>
                                 <p className="tex-xs">Solusi Digital Kreatif</p>
                             </div>
-                            <div className={`absolute transition-all duration-500 ease-out bg-white/80 rounded-full text-sm p-1 px-2 ${isCloseNav ? "opacity-100 translate-x-0" : "opacity-0 translate-x-50"}`}>
-                                <button className="bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent">Sign/Login</button>
+                            <div className={`absolute transition-all duration-500 ease-out bg-red-600 rounded-full text-xs p-2 px-3 ${isCloseNav ? "opacity-100 translate-x-0" : "opacity-0 translate-x-50"}`}>
+                                <Link href={'/login'} className="text-white">Sign/Login</Link>
                             </div>
                             </div>
                             <button className="z-2" onClick={() => setIscloseNav(!isCloseNav)}>

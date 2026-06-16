@@ -24,7 +24,7 @@ export default function Hero() {
 
     return (
         <section className="relative">
-            <div className="absolute inset-0 bg-[url(/hero.webp)] bg-no-repeat bg-cover" />
+            <div className="absolute inset-0 bg-gradient-to-b from-blue-400/70 via-yellow-700/20 to-white" />
 
             <div className="relative mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center lg:px-8">
 
@@ -60,7 +60,7 @@ export default function Hero() {
                         Buat Web Sekarang
                     </button>
 
-                    <Link href={'/demo'} className="rounded-2xl border border-white/20 bg-gray-300/40 px-8 py-4 text-lg text-neutral-600 font-semibold backdrop-blur transition hover:bg-gray-300/20">
+                    <Link href={'/demo'} className="rounded-2xl border border-red-600 px-8 py-4 text-lg text-neutral-600 font-semibold backdrop-blur transition hover:bg-gray-300/20">
                         Lihat Demo
                     </Link>
                 </div>
