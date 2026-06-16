@@ -34,7 +34,7 @@ export async function generateMetadata() {
       siteName: "Solusi Digital Kreatif",
       images: [
         {
-          url: `${url}/www.solusidigitalkreatif.my.id_.jpg`,
+          url: `${url}/og.png`,
           width: 1200,
           height: 630,
         },
