@@ -83,7 +83,7 @@ export default function page() {
                                         <div className="w-full flex items-center">
                                             <button onClick={() => {
                                             window.open(
-                                                "https://wedd.solusidigitalkreatif.my.id/jawa/noval-latifah",
+                                                "https://wedd.solusidigitalkreatif.my.id/light/riyan-tri",
                                                 "_blank",
                                                 "noopener,noreferrer"
                                             );
