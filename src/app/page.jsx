@@ -122,7 +122,7 @@ export default function LandingPage() {
           </h2>
 
           <p className="mx-auto mt-4 text-neutral-200 max-w-2xl text-lg">
-            Gunakan template ini sebagai dasar landing page bisnis, startup, atau portfolio.
+            Punya ide website? Kami siap bantu wujudkan jadi tampilan yang keren, cepat, dan nyaman digunakan.
           </p>
 
           <button onClick={() => {
